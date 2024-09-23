@@ -1,9 +1,9 @@
 .callout {
 	background-color: rgb(56, 68, 138);
-    height: auto;
     width: 400px;
     padding: 10px;
     color: white;
+    border: 10px solid white;
 }
 
 .callout img {
