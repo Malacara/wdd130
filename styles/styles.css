@@ -30,7 +30,7 @@ main img {
     padding: 2px;
     margin: 20px;
     box-shadow: 0 0 30px gray;
-    float: inline-end;
+    float: right;
 }
 
 #introduction {
