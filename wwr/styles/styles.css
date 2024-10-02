@@ -1,0 +1,16 @@
+:root {
+    --primary-color: #102542;
+    --secondary-color: #008DD5;
+    --accent1-color: #FDE74C;
+    --accent2-color: #FBFBFF;
+    --heading-font: "Permanent Marker";
+    --text-font: "Quicksand";
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: "Permanent Marker", cursive;
+}
+
+p {
+    font-family: "Quicksand", system-ui;
+}
