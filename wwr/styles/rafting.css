@@ -1,0 +1,73 @@
+:root {
+    --primary-color: rgb(16, 37, 66);
+    --secondary-color: rgb(0, 143, 214);
+    --accent1-color: rgb(253, 231, 76);
+    --accent2-color: rgb(251, 251, 255);
+    --heading-font: "Permanent Marker";
+    --text-font: "Quicksand";
+}
+
+* {
+    max-width: 1100px;
+    height: auto;
+    margin: 0px auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Permanent Marker", cursive;
+    color: var(--primary-color);
+}
+
+p {
+    font-family: "Quicksand", system-ui;
+    color: var(--primary-color);
+}
+
+footer nav a {
+    text-decoration: none;
+}
+
+
+
+
+div .hero{
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    background-color: rgba(0, 143, 214, 0.8);
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 220px;
+    left: 399px;
+    color: white;
+}
+
+.hero article img {
+    float: right;
+    margin: 10px;
+    width: 140px;
+}
+
+.hero article p {
+    color: white;
+    text-align: center;
+}
+
+.hero article {
+    margin: 20px;
+    padding: 20px;
+    width: 50%;
+    background-color: rgba(16, 37, 66, 0.6);
+    position: absolute;
+    top: 280px;
+    left: 450px;
+}
+
