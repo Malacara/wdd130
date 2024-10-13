@@ -42,7 +42,6 @@ header img {
 
 header nav {
     display: flex;
-
 }
 
 header nav a {
@@ -72,17 +71,19 @@ div .hero{
     width: 100%;
     height: auto;
     z-index: -1;
+    border-radius: 10px;
+    border: 1px solid var(--secondary-color);
 }
 
 .hero h1 {
     background-color: rgba(0, 143, 214, 0.8);
     display: inline-block;
-    width: 93%;
-    height: auto;
+    width: 100%;
     margin-top: 20px;
-    padding: 10px 40px;
     color: white;
     text-align: center;
+    font-size: 40px;
+    letter-spacing: 9px;
 }
 
 .hero article img {
@@ -95,7 +96,7 @@ div .hero{
 .hero article p {
     color: white;
     text-align: left;
-    margin-right: 200px;
+    margin-right: 240px;
 }
 
 .hero article {
@@ -108,18 +109,72 @@ div .hero{
     flex-direction: row-reverse;
     z-index: 1;
     margin-top: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 
 /* HISTORY */
 
+.box2 {
+    background-color: var(--accent1-color);
+    border-radius: 10px;
+}
 
+section h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+section p {
+    margin: 20px;
+    padding-bottom: 20px;
+}
 
 /* 5 IMAGES */
 
+.box3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 1px solid var(--secondary-color);
+}
+
+.box3 h2 {
+    flex-basis: 100%;
+    padding-bottom: 20px;
+}
+
+.box3 img {
+    flex-basis: 1fr;
+    height: 140px;
+    width: auto;
+    border-radius: 5px;
+}
+
+figure figcaption{
+    text-align: center;
+}
 
 /* FOOTER */
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    flex-grow: 1;
+    text-align: start;
+}
+
 footer nav a {
     text-decoration: none;
+}
+
+footer img {
+    width: 40px;
+    height: auto;
 }
