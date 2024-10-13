@@ -1,6 +1,6 @@
 :root {
     --primary-color: rgb(16, 37, 66);
-    --secondary-color: rgb(0, 143, 214);
+    --secondary-color: rgb(29, 103, 206);
     --accent1-color: rgb(253, 231, 76);
     --accent2-color: rgb(251, 251, 255);
     --heading-font: "Permanent Marker";
@@ -76,7 +76,7 @@ div .hero{
 }
 
 .hero h1 {
-    background-color: rgba(0, 143, 214, 0.8);
+    background-color: rgba(29, 103, 206, 0.7);
     display: inline-block;
     width: 100%;
     margin-top: 20px;
@@ -89,7 +89,7 @@ div .hero{
 .hero article img {
     margin-left: 20px;
     height: auto;
-    width: 200px;
+    width: 150px;
     z-index: 1;
 }
 
@@ -101,15 +101,15 @@ div .hero{
 
 .hero article {
     width: 80%;
-    background-color: rgba(16, 37, 66, 0.6);
+    background-color: rgba(29, 103, 206, 0.9);
     display: flex;
-    padding: 50px;
+    padding: 30px;
     align-items: center;
     justify-content: space-between;
     flex-direction: row-reverse;
     z-index: 1;
     margin-top: 40px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 /* HISTORY */
