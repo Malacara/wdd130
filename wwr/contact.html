@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylesheet" href="styles/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -24,50 +24,69 @@
     <main>
         <h1>Contact Us</h1>
 
-        <h2>Send Us a Message</h2>
-        <div class="company_info">
-            <p>Address: Nuevo Leon, Triangulo del cuchillo</p>
-            <p>Phone number: <a href="tel:+23 770 320 054">(+23) 770 320 054</a></p>
-            <p>Email: <a href="mailto:contact@rafting.com">contact@rafting.com</a></p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14399.425700122087!2d-99.33330474920103!3d25.54315899336273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1729269595056!5m2!1ses-419!2smx" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div>
+            <section class="company_info">
+                <h2>Company information</h2>
+                <p>Address: Nuevo Leon, Triangulo del cuchillo.</p>
+                <p>Phone numbers: <a href="tel:+23 770 320 054">(+23) 770 320 054</a><br><a href="tel:+23 770 320 054">(+23) 770 320 054</a><br><a href="tel:+23 770 320 054">(+23) 770 320 054</a></p>
+                <p>Email: <a href="mailto:contact@rafting.com">contact@rafting.com</a></p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14399.425700122087!2d-99.33330474920103!3d25.54315899336273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1729269595056!5m2!1ses-419!2smx" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
         </div>
 
-        <h2>Our expert explorers</h2>
-        <div>
-            <figure>
-                <img src="images/michael_explorer.jpg" alt="Expert Explorer Michael">
-                <figcaption>Michael</figcaption>
-            </figure>
-            <figure>
-                <img src="images/kevin_explorer.jpg" alt="Expert Explorer Kevin">
-                <figcaption>Kevin</figcaption>
-            </figure>
-            <figure>
-                <img src="images/stuart_explorer.jpeg" alt="Expert Explorer Stuart">
-                <figcaption>Stuart</figcaption>
-            </figure>
+        <div class="employees">
+            <h2>Our expert explorers</h2>
+            <section>
+                <article>
+                    <figure>
+                        <img src="images/michael_explorer.jpg" alt="Expert Explorer Michael">
+                        <figcaption>Michael - CEO</figcaption>
+                    </figure>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quos saepe, laudantium autem delectus doloremque rerum id aperiam! Impedit molestiae alias ea dolor tenetur, officia ratione dignissimos aut! Libero, officia.</p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="images/kevin_explorer.jpg" alt="Expert Explorer Kevin">
+                        <figcaption>Kevin - Survivor</figcaption>
+                    </figure>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, eos officia sit, repudiandae voluptatum architecto deleniti id, doloremque eum nobis delectus ut. Suscipit accusamus asperiores illum unde consectetur perferendis assumenda.</p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="images/stuart_explorer.jpeg" alt="Expert Explorer Stuart">
+                        <figcaption>Indiana Jones - Survivor</figcaption>
+                    </figure>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi tenetur similique totam facilis voluptas numquam, quisquam animi veritatis, eos repellendus voluptatibus quas perferendis quasi nisi, nesciunt ducimus quidem dolores sint?</p>
+                </article>
+            </section>
         </div>
 
         <form>
-            <fieldset>
-                <label for="username">User name:</label>
+
+
+            <fieldset class="field1">
+                <label for="username">Full name:</label>
                 <input type="text" id="username" name="username">
 
                 <label for="useremail">Email:</label>
                 <input type="email" id="useremail" name="useremail">
             </fieldset>
-            <fieldset>
+
+
+            <fieldset class="field2">
                 <p>Purpose of the message:</p>
-
-                <input type="radio" id="general" name="purpose" value="General Inquiry">
-                <label for="general">General Inquiry</label><br>
-                
-                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
-                <label for="reservation">Reservation Question</label><br>
-
-                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
-                <label for="suggestion">Website Suggestion</label><br>
-
+                <div class="field-row">
+                    <input type="radio" id="general" name="purpose" value="General Inquiry">
+                    <label for="general">General Inquiry</label>
+                </div>
+                <div class="field-row">
+                    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                    <label for="reservation">Reservation Question</label>
+                </div>
+                <div class="field-row">
+                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                </div>
                 <label for="feedback">Write your message here:</label>
                 <textarea name="feedback" id="feedback"></textarea>
             </fieldset>
